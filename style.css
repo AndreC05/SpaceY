@@ -1,0 +1,93 @@
+body,
+h1,
+h3 {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: white;
+}
+
+header {
+  color: white;
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5em;
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2em;
+  padding: 0.5em;
+}
+
+nav .WebSiteName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav .WebSiteName h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+}
+
+nav .NavAnchors {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  column-gap: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+nav .NavAnchors a {
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 0.75em;
+}
+
+nav .NavAnchors a:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+main .RecentLaunch {
+  background-image: url(galaxy.jpg);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+main .BuyTickets {
+  background-image: url(landscape.jpg);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+main .SpaceTravel {
+  background-image: url(eclipse.jpg);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+footer {
+  background: black;
+  text-align: center;
+  padding: 50px;
+}
+footer h3 {
+  font-weight: lighter;
+  color: gray;
+}
