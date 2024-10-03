@@ -1,6 +1,7 @@
 body,
 h1,
 h3 {
+  box-sizing: border-box;
   display: block;
   margin: 0;
   padding: 0;
@@ -64,6 +65,13 @@ main .RecentLaunch {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  width: 100vw;
+}
+
+main .RecentLaunch .RecentLaunchContent {
+  position: absolute;
+  left: 5em;
+  bottom: 5em;
 }
 
 main .BuyTickets {
@@ -72,6 +80,13 @@ main .BuyTickets {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  width: 100vw;
+}
+
+main .BuyTickets .BuyTicketsContent {
+  position: absolute;
+  left: 5em;
+  bottom: 5em;
 }
 
 main .SpaceTravel {
@@ -80,6 +95,13 @@ main .SpaceTravel {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  width: 100vw;
+}
+
+main .SpaceTravel .SpaceTravelContent {
+  position: absolute;
+  left: 5em;
+  bottom: 5em;
 }
 
 footer {
