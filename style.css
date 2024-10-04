@@ -64,15 +64,16 @@ nav .NavAnchors a:hover {
 main a {
   text-decoration: none;
   color: white;
-  background-color: rgba(255, 174, 0, 0.349);
+  background-color: rgba(255, 174, 0, 0.514);
 }
 
 main a:hover {
   text-decoration: underline;
   font-weight: bolder;
+  background-color: rgba(1, 1, 75, 0.774);
 }
 
-main .AboutSection {
+.AboutSection {
   background-image: url(galaxy2.jpg);
   position: relative;
   background-size: cover;
@@ -81,13 +82,7 @@ main .AboutSection {
   width: 100vw;
 }
 
-main .AboutSection .AboutSectionContent {
-  position: absolute;
-  left: 5em;
-  bottom: 5em;
-}
-
-main .Pricing {
+.Pricing {
   background-image: url(spaceRocket.jpg);
   position: relative;
   background-size: cover;
@@ -96,13 +91,7 @@ main .Pricing {
   width: 100vw;
 }
 
-main .Pricing .PricingContent {
-  position: absolute;
-  left: 5em;
-  bottom: 5em;
-}
-
-main .BuyTickets {
+.BuyTickets {
   background-image: url(landscape.jpg);
   position: relative;
   background-size: cover;
@@ -111,13 +100,7 @@ main .BuyTickets {
   width: 100vw;
 }
 
-main .BuyTickets .BuyTicketsContent {
-  position: absolute;
-  left: 5em;
-  bottom: 5em;
-}
-
-main .MoreDetails {
+.MoreDetails {
   background-image: url(northern-Lights.jpg);
   position: relative;
   background-size: cover;
@@ -126,10 +109,19 @@ main .MoreDetails {
   width: 100vw;
 }
 
-main .MoreDetails .MoreDetailsContent {
+.SectionContent {
   position: absolute;
   left: 5em;
   bottom: 5em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.readMore {
+  max-width: 175px;
+  border: 2px solid rgba(12, 3, 3, 0.774);
+  padding: 1em;
 }
 
 footer {
