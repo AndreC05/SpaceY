@@ -20,6 +20,7 @@ header {
 
 nav {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   column-gap: 2em;
   padding: 0.5em;
@@ -44,6 +45,7 @@ nav .NavAnchors {
   column-gap: 1em;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 nav .NavAnchors a {
@@ -59,8 +61,19 @@ nav .NavAnchors a:hover {
   font-weight: bolder;
 }
 
-main .RecentLaunch {
-  background-image: url(galaxy.jpg);
+main a {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(255, 174, 0, 0.349);
+}
+
+main a:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+main .AboutSection {
+  background-image: url(galaxy2.jpg);
   position: relative;
   background-size: cover;
   background-position: center;
@@ -68,7 +81,22 @@ main .RecentLaunch {
   width: 100vw;
 }
 
-main .RecentLaunch .RecentLaunchContent {
+main .AboutSection .AboutSectionContent {
+  position: absolute;
+  left: 5em;
+  bottom: 5em;
+}
+
+main .Pricing {
+  background-image: url(spaceRocket.jpg);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+main .Pricing .PricingContent {
   position: absolute;
   left: 5em;
   bottom: 5em;
@@ -89,8 +117,8 @@ main .BuyTickets .BuyTicketsContent {
   bottom: 5em;
 }
 
-main .SpaceTravel {
-  background-image: url(eclipse.jpg);
+main .MoreDetails {
+  background-image: url(northern-Lights.jpg);
   position: relative;
   background-size: cover;
   background-position: center;
@@ -98,7 +126,7 @@ main .SpaceTravel {
   width: 100vw;
 }
 
-main .SpaceTravel .SpaceTravelContent {
+main .MoreDetails .MoreDetailsContent {
   position: absolute;
   left: 5em;
   bottom: 5em;
