@@ -125,6 +125,21 @@ nav .NavAnchors a:hover {
   background-color: rgba(1, 1, 75, 0.774);
 }
 
+.backToTheTop {
+  color: white;
+  position: fixed;
+  z-index: 1;
+  bottom: 50px;
+  right: 50px;
+}
+
+.backToTheTop img {
+  height: 20px;
+  width: 20px;
+  opacity: 30%;
+  border-radius: 40%;
+}
+
 footer {
   background: black;
   padding: 1em;
