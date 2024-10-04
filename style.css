@@ -140,6 +140,10 @@ nav .NavAnchors a:hover {
   border-radius: 40%;
 }
 
+.backToTheTop img:hover {
+  opacity: 70%;
+}
+
 footer {
   background: black;
   padding: 1em;
